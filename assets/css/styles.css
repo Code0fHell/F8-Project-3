@@ -329,3 +329,58 @@ a {
 .services__cta {
     margin-top: 55px;
 }
+
+/* ====== How it works ====== */
+.howItWorks {
+    margin-top: 85px;
+    background-color: #f6fbff;
+    padding: 100px 0;
+}
+
+.howItWorks__desc {
+    width: 468px;
+}
+
+.howItWorks__list {
+    margin-top: 70px;
+    display: flex;
+    gap: 0 30px;
+}
+
+.howItWorks-item {
+    padding: 43px;
+    background-color: #fff;
+    border: 16px solid #eaf6ff;
+    flex: 1;
+    border-radius: 4px;
+}
+
+.howItWorks-item:hover {
+    border-color: #2e80ce;
+    transition: 0.3s all ease-in-out;
+    transform: translateY(-16px);
+}
+
+.howItWorks-item:hover .howItWorks-item__cta {
+    font-weight: 400;
+    color: #2e80ce;
+    text-decoration-line: underline;
+}
+
+.howItWorks-item__heading {
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 1.38;
+    color: var(--primary-bgc);
+}
+
+.howItWorks-item__desc,
+.howItWorks-item__cta {
+    margin-top: 28px;
+    margin-bottom: 18px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #575f66;
+}
