@@ -520,3 +520,50 @@ a {
 .team__control__next-icon {
     rotate: 180deg;
 }
+
+/* ====== Install App ====== */
+.insApp {
+    margin-top: 85px;
+    padding: 85px 0;
+}
+
+.insApp__body {
+    display: flex;
+    align-items: center;
+    padding: 0 70px;
+    background-color: #2e80ce;
+    border-radius: 4px;
+}
+
+.insApp__demo__img {
+    display: block;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+    margin-top: -95px;
+}
+
+.insApp__content {
+    max-width: 586px;
+    margin-left: 160px;
+}
+
+.insApp__heading {
+    max-width: 489px;
+}
+
+.insApp__heading,
+.insApp__desc {
+    color: #ffffff;
+}
+
+.insApp__row {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    gap: 0 28px;
+}
+
+.insApp__btn:hover {
+    opacity: 0.8;
+}
