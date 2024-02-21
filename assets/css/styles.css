@@ -9,6 +9,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -107,12 +108,15 @@ input {
 }
 
 /* Header */
-.header {
-    padding: 30px 0 110px;
+.header-top {
+    position: sticky;
+    top: 0;
+    padding: 30px 0 12px;
+    z-index: 1;
     background-color: var(--primary-bgc);
 }
 
-.header-top {
+.header-top__body {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -216,7 +220,11 @@ input {
 
 /* ====== Hero ====== */
 .hero {
-    margin-top: 76px;
+    padding: 76px 0 110px;
+    background-color: var(--primary-bgc);
+}
+
+.hero__body {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -839,6 +847,6 @@ input {
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.86;
-    color: #AAB3BA;
+    color: #aab3ba;
     text-align: center;
 }
